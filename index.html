@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">
+                <div class="logo">
+                    Shivani
+                </div>
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </div>
+            <ul class="menu">
+                <li><a href="#hero_header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education_experience">Education</a></li>
+                <li><a href="#featuredprojects">Projects</a></li>
+            </ul>
+
+            <div class="nav-icns">
+                <a href="https://github.com/PuttaShivani?tab=repositories"><img src="portfolioAssets/github_icon.png" style="width: 35px; height: 35px;"></a>
+                <a href="https://www.linkedin.com/in/shivani-mahendra-1a3473380/"><img src="portfolioAssets/linkedin_icon.png" style="width: 35px; height: 35px;"></a>
+                <a href="https://www.naukri.com/mnjuser/profile"><img src="portfolioAssets/job_icon.png" style="width: 35px; height: 35px;"></a>
+            </div>
+        </nav>
+        <div id="hero_header">
+            <div class="hero_img">
+                <img src="portfolioAssets/PortPolioShivaniIMg-removebg-preview.png">
+                <img src="portfolioAssets/shape-one.png" alt="" class="hero_shape">
+            </div>
+
+            <div class="hero_content">
+                <h2>Hi, i am</h2>
+                <h1>Shivani Mahendra</h1>
+                <h3>I am a <span class="text"></span></h3>
+                <div class="hero_btns">
+                    <button><a href="portfolioAssets/shivaniPuttaResume.docx" download="Shivani_CV"
+                            class="download-btn">
+                            Download CV
+                        </a></button>
+                    <button> <a href="#contact" class="hire_me-btn"> Hire me <i class="ri-arrow-right-up-line"></i>
+                        </a></button>
+                </div>
+            </div>
+            <div class="top_bg_text">
+
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="headings">
+            <div class="anim_line_box"></div>
+            <h1>About <span>Me</span></h1>
+        </div>
+        <div class="about_container">
+            <div class="about_left">
+                <h1>"MERN Stack Developer"</h1>
+                <p>
+                    Specializes in building modern web applications using MongoDB, Express.js, React, and Node.js.
+                </p>
+                <div class="client_name">
+                    <h3>Junior Developer</h3>
+                    <p> Shivani Mahendra</p>
+                </div>
+                <img src="portfolioAssets/sign.png" alt="">
+            </div>
+            <div class="about_img">
+                <img src="portfolioAssets/PortPolioShivaniIMg.png" alt="">
+                <div class="hidden_icons">
+                    <div class="icon">
+                        <img src="portfolioAssets/item-1.png" alt="" class="about_image">
+                    </div>
+                    <div class="icon">
+                        <img src="portfolioAssets/item-2.png" alt="" class="about_image">
+                    </div>
+                    <div class="icon">
+                        <img src="portfolioAssets/item-3.png" alt="" class="about_image">
+                    </div>
+                </div>
+            </div>
+            <div class="about_right">
+                <div class="about_info">
+                    <div class="about_det">
+                        <div class="value">70%</div>
+                        <div class="det_info">
+                            <h2>Frontend <span>(Bootstrap,React)</span></h2>
+                            <p>Frontend developers use Bootstrap for styling and React for interactive interfaces.</p>
+                        </div>
+                    </div>
+                    <div class="about_det">
+                        <div class="value">60%</div>
+                        <div class="det_info">
+                            <h2>Backend <span>(Node,Express)</span></h2>
+                            <p>Backend development uses Node.js and Express to build fast server applications.</p>
+                        </div>
+                    </div>
+                    <div class="about_det">
+                        <div class="value">70%</div>
+                        <div class="det_info">
+                            <h2>Database <span>(MongoDB,SQL)</span></h2>
+                            <p>Databases like MongoDB and SQL store, manage, and retrieve application data.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="education_experience">
+        <div class="headings">
+            <div class="anim_line_box"></div>
+            <h1>What I <span>Acheive</span></h1>
+        </div>
+
+        <div class="resume-section">
+            <div class="education_btn toggle-container">
+                <button class="toggle-btn active" data-target="education">Education</button>
+                <button class="toggle-btn" data-target="experience">Experience</button>
+            </div>
+
+            <div id="resume-timeline">
+                <div class="container" data-category="education">
+                    <div class="education-box">
+                        <div class="resume-item">
+                            <div class="dot"></div>
+                            <span class="year">2021 - 2025</span>
+                            <h4>Bachelors in Electronics and Communication Engineering</h4>
+                            <span class="institution">IIIT Basar - First Class</span>
+                            <p>Focused on VLSI design, Embedded Systems, and Web Technologies. Maintained high academic
+                                standing and led technical workshops.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" data-category="education">
+                    <div class="education-box">
+                        <div class="resume-item">
+                            <div class="dot"></div>
+                            <span class="year">2019 - 2021</span>
+                            <h4>Pre University Course (PUC)</h4>
+                            <span class="institution">IIIT Basar - First Class</span>
+                            <p>Specialized in Mathematics, Physics, and Chemistry with a focus on engineering
+                                foundations.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" data-category="education">
+                    <div class="education-box">
+                        <div class="resume-item">
+                            <div class="dot"></div>
+                            <span class="year">2018 - 2019</span>
+                            <h4>Secondary School Cerificate(SSC)</h4>
+                            <span class="institution">Telangana Model School,Irkode -9.8CGPA</span>
+                            <p>Achieved a near-perfect GPA with a strong emphasis on analytical thinking and academic
+                                excellence across all core subjects.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" data-category="experience">
+                    <div class="experience-box">
+                        <div class="resume-item">
+                            <div class="dot"></div>
+                            <span class="year">2026 - Present</span>
+                            <h4>Associate Software Engineer Intern</h4>
+                            <span class="institution">Enlife Innovations Private Limited</span>
+                            <p>Developing responsive frontend components and optimizing database queries for internal
+                                web applications.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" data-category="experience">
+                    <div class="experience-box">
+                        <div class="resume-item">
+                            <div class="dot"></div>
+                            <span class="year">2024</span>
+                            <h4>Summer Trainee</h4>
+                            <span class="institution">NTPC Limited</span>
+                            <p>Observed electrical grid operations, switch-yard maintenance, and substation safety
+                                protocols.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" data-category="experience">
+                    <div class="experience-box">
+                        <div class="resume-item">
+                            <div class="dot"></div>
+                            <span class="year">2025</span>
+                            <h4>Student Placement Representative <span>- ECE</span></h4>
+                            <p>Acted as a liaison between the Training and Placement Cell and corporate HRs.
+                                Successfully
+                                coordinated recruitment drives and campus outreach programs for the ECE department.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+
+    <div class="containerr">
+        <div class="card">
+            <div class="icon-box">
+                <img src="portfolioAssets/ic.png" alt="Graphics">
+            </div>
+            <h3>Graphics Design</h3>
+            <p>Develop the Visual Identity of Your Business.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon-box">
+                <img src="portfolioAssets/ic1.png" alt="Web">
+            </div>
+            <h3>Web Design</h3>
+            <p>Connect With Your Users, Not Just Your Business.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon-box">
+                <img src="portfolioAssets/ic2.png" alt="App">
+            </div>
+            <h3>App Development</h3>
+            <p>We Develop the Visual Identity of Your Business.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon-box">
+                <img src="portfolioAssets/ic3.png" alt="SEO">
+            </div>
+            <h3>SEO & Marketing</h3>
+            <p>Taking your site at the top of Google's ranking.</p>
+        </div>
+    </div>
+
+    <section id="featuredprojects">
+        <div class="headings">
+            <div class="anim_line_box"></div>
+            <h1>Featured <span>Projects</span></h1>
+            <div class="portfolio-section">
+                <div class="filter-nav">
+                    <button class="filter-btn" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn active" data-filter="applications">Applications</button>
+                    <button class="filter-btn" data-filter="Templates">Core</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-card" data-category="web">
+                        <div class="image-wrapper">
+                            <img src="portfolioAssets/project-3.jpg" alt="Project">
+                        </div>
+                        <div class="card-content">
+                            <h3>Luxurious - Admin Dashboard</h3>
+                            <span class="category">App | Templates | Graphics</span>
+                            <p>The Luxurious - Admin Dashboard shown in your portfolio layout is a conceptual web
+                                application.
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-card" data-category="applications">
+                        <div class="image-wrapper">
+                            <img src="portfolioAssets/project-2.jpg" alt="Project">
+                        </div>
+                        <div class="card-content">
+                            <h3>Guidex - Help Desk</h3>
+                            <span class="category">Web | Templates | Graphics</span>
+                            <p>Guidex - Help Desk is a professional customer support and ticketing system project. In a
+                                modern portfolio.
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-card" data-category="web">
+                        <div class="image-wrapper">
+                            <img src="portfolioAssets/project-1.jpg" alt="Project">
+                        </div>
+                        <div class="card-content">
+                            <h3>Shivani - Personal Portfolio</h3>
+                            <span class="category">App | Templates</span>
+                            <p>A modern portfolio design in 2026 isn't just about showing your work; it’s about
+                                storytelling and user experience (UX).
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-category="applications">
+                        <div class="image-wrapper">
+                            <img src="portfolioAssets/project-6.jpg" alt="Project">
+                        </div>
+                        <div class="card-content">
+                            <h3>Suby- Vendor Management App</h3>
+                            <span class="category">Web | Templates | Graphics</span>
+                            <p>Swiggy is moving toward a "Super App" design—a single interface that handles multiple
+                                daily needs. For a developer or designer, studying Swiggy is useful for understanding to
+                                handle .
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-category="Templates">
+                        <div class="image-wrapper">
+                            <img src="portfolioAssets/project-5.jpg" alt="Project">
+                        </div>
+                        <div class="card-content">
+                            <h3>Recruitr -Hiring App</h3>
+                            <span class="category">Web | Templates | Graphics</span>
+                            <p>Gemini said
+                                Recruitr is a data-driven Hiring and Talent Acquisition Platform designed to simplify
+                                the recruitment lifecycle for both HR professionals
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-category="Templates">
+                        <div class="image-wrapper">
+                            <img src="portfolioAssets/project-4.jpg" alt="Project">
+                        </div>
+                        <div class="card-content">
+                            <h3>MicroScrip Patch Antenna - for 10Hz Applications</h3>
+                            <span class="category">Web | Templates | Graphics</span>
+                            <p>A Microstrip Patch Antenna is a type of low-profile radio antenna used extensively in
+                                modern wireless communication project.
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="headings">
+            <div class="anim_line_box"></div>
+            <h1>Hire <span>Me</span></h1>
+            <p>Let’s work together. Fill the form below and I’ll get back to you.</p>
+
+            <form class="contact-form">
+                <div class="input-row">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="input-row">
+                    <input type="text" placeholder="Company / Organization">
+                    <input type="tel" placeholder="Phone Number">
+                </div>
+
+                <input type="text" placeholder="Subject" required>
+
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+    </section>
+
+    <footer>
+
+        <p>&copy; 2026 Shivani Mahendra Portfolio</p>
+
+
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        document.querySelectorAll('.toggle-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const target = button.getAttribute('data-target');
+
+                document.querySelectorAll('.toggle-btn').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                document.querySelectorAll('#resume-timeline .container').forEach(item => {
+                    if (item.getAttribute('data-category') === target) {
+                        item.classList.remove('hidden');
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+
+        document.querySelector('[data-target="education"]').click();
+    </script>
+
+    <script>
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const portfolioCards = document.querySelectorAll('.portfolio-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+
+                portfolioCards.forEach(card => {
+                    const cardCategory = card.getAttribute('data-category');
+
+                    if (filterValue === 'all' || filterValue === cardCategory) {
+                        card.style.display = 'block';
+
+                        setTimeout(() => card.style.opacity = '1', 10);
+                    } else {
+                        card.style.opacity = '0';
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
